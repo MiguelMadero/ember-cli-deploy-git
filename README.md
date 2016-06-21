@@ -36,7 +36,7 @@ ENV.git = {
 
 ```js
 if (environment === 'production') {
-  ENV.baseURL = '/your-repo-name';
+  ENV.rootURL = '/your-repo-name';
   ENV.locationType = 'hash';
 }
 ```
